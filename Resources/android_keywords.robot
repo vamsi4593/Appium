@@ -12,22 +12,6 @@ Open App With Desired Capabilities
     ...       appPackage=${appPackage}
     ...       appActivity=${appActivity}
 
-Open App With Desired Capabilities Add-Contacts
-    log to console      Setting App Desired Capabilities
-    open application  http://127.0.0.1:4723/wd/hub
-    ...       platformName=${platformName}
-    ...       deviceName=${deviceName}
-    ...       appPackage=${contact_appPackage}
-    ...       appActivity=${contact_appActivity}
-
-Open App With Desired Capabilities Add-Alarm
-    log to console      Setting App Desired Capabilities
-    open application  http://127.0.0.1:4723/wd/hub
-    ...       platformName=${platformName}
-    ...       deviceName=${deviceName}
-    ...       appPackage=${clock_appPackage}
-    ...       appActivity=${clock_appActivity}
-
 Search For WallPaper Settings
     Click On Search Area
     Search Wallpaper & Settings
